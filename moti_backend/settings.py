@@ -73,7 +73,7 @@ DATABASES = {
         "NAME": config("PSQL_DB"),
         "USER": config("PSQL_USER"),
         "PASSWORD": config("PSQL_PASS"),
-        "HOST": config("PSQL_HOST", "db"),
+        "HOST": config("PSQL_HOST"),
         "PORT": config("PSQL_PORT", 5432),
     }
 }
